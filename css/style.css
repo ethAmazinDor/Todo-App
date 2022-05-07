@@ -1,0 +1,48 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-image:url("../img/paper.jpg") ;
+}
+
+
+#header {
+    display: flex;
+
+}
+
+h1{
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+input {
+    margin-top: 30px;
+    padding: 18px;
+}
+
+
+button {
+    padding: 15px;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+#listItems {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.paragraph-style{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 28px;
+    padding: 0px;
+    cursor: pointer;
+}
